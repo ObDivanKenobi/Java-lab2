@@ -3,9 +3,11 @@ package gui;
 import classes.DataModels.*;
 import classes.FileHandler;
 import classes.GoodsList;
+import com.bulenkov.darcula.DarculaLaf;
 
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
+import javax.swing.plaf.basic.BasicLookAndFeel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
@@ -47,6 +49,13 @@ public class MainForm {
         } catch (ClassNotFoundException | InstantiationException | IllegalAccessException | UnsupportedLookAndFeelException e) {
             return;
         }
+
+/*        BasicLookAndFeel laf = new DarculaLaf();
+        try {
+            UIManager.setLookAndFeel(laf);
+        } catch (UnsupportedLookAndFeelException e) {
+            e.printStackTrace();
+        }*/
 
         tableGoods.setFillsViewportHeight(true);
 

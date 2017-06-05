@@ -11,15 +11,6 @@ import java.util.stream.*;
  */
 public class GoodsList {
     public static int StartCapacity = 20;
-    private static Comparator<Goods> defaultComparator = (Goods o1, Goods o2) -> {
-            if (o1.getID() > o2.getID())
-                return 1;
-
-            if (o1.getID() == o2.getID())
-                return 0;
-
-            return -1;
-        };
 
     private ArrayList<Goods> goods;
 
