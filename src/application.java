@@ -6,6 +6,6 @@ import gui.MainForm;
 public class application {
     public static void main(String[] args) {
         MainForm form = new MainForm();
-        form.Show();
+        form.show();
     }
 }

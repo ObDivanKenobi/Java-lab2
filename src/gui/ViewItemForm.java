@@ -45,7 +45,7 @@ public class ViewItemForm{
 
         frame = new JFrame("App");
         frame.setContentPane(panelMain);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
     }

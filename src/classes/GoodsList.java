@@ -1,11 +1,10 @@
 package classes;
 
-import classes.DataModels.*;
+import classes.DataModels.Goods;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
+import java.util.*;
 import java.util.function.Predicate;
+import java.util.stream.*;
 
 /**
  * Created by Илья on 21.05.2017.
@@ -33,10 +32,10 @@ public class GoodsList {
     }
 
     public GoodsList(GoodsList list) {
-        goods = new ArrayList<>(list.goods);
+        goods = list.goods;
     }
 
-    public GoodsList(ArrayList<Goods> list) {
+    private GoodsList(ArrayList<Goods> list) {
         goods = new ArrayList<>(list);
     }
 
@@ -44,6 +43,10 @@ public class GoodsList {
 
     public Goods getItem(int index) throws IndexOutOfBoundsException {
         return goods.get(index);
+    }
+
+    public int getMaxID() {
+        return goods.stream().mapToInt(g -> g.getID()).max().orElse(0);
     }
 
     public void setItem(int index, Goods item) throws IndexOutOfBoundsException {
@@ -60,21 +63,25 @@ public class GoodsList {
 
     public void addItem(Goods item) {goods.add(item); }
 
+    public int indexOf(Goods g) {
+        return goods.indexOf(g);
+    }
+
+    public boolean existsId(int id) {
+        return goods.stream().anyMatch(item -> item.getID() == id);
+    }
+
     public GoodsList sort(Comparator<Goods> comparator) {
         ArrayList<Goods> tmp = new ArrayList<>(goods);
         Collections.sort(tmp, comparator);
         return new GoodsList(tmp);
     }
 
-    public GoodsList sort() {
-        ArrayList<Goods> tmp = new ArrayList<>(goods);
-        Collections.sort(tmp, defaultComparator);
-        return new GoodsList(tmp);
-    }
-
     public GoodsList filter(Predicate<Goods> condition) {
-        ArrayList<Goods> tmp = new ArrayList<>(goods);
-        tmp.removeIf(condition);
-        return new GoodsList(tmp);
+        List<Goods> tmp = goods.stream()
+                               .filter(condition)
+                               .collect(Collectors.toList());
+        ArrayList<Goods> filtered = (ArrayList<Goods>) tmp;
+        return new GoodsList(filtered);
     }
 }

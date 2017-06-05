@@ -3,6 +3,7 @@ package classes;
 import classes.DataModels.*;
 
 import java.io.*;
+import java.util.function.Predicate;
 
 /**
  * Created by Илья on 21.05.2017.
@@ -16,7 +17,7 @@ public class FileHandler {
             return data;
 
         try {
-            BufferedReader in = new BufferedReader(new FileReader(file.getAbsoluteFile()));
+            BufferedReader in = new BufferedReader(new InputStreamReader(new FileInputStream(file.getAbsoluteFile()), "UTF8"));
             try {
                 String s;
                 while ((s = in.readLine()) != null) {
@@ -34,6 +35,12 @@ public class FileHandler {
                     catch(NumberFormatException e) {
                         continue;
                     }
+
+                    //если ID меньше нуля или элемент с таким ID уже существует, пробрасываем текущий
+                    if (id <= 0 || data.existsId(id)) {
+                        continue;
+                    }
+
                     String name = values[1];
                     GoodsTypes type;
                     try {
@@ -84,6 +91,7 @@ public class FileHandler {
                 }
             }
             finally {
+                Goods.setMaxID(data.getMaxID());
                 in.close();
             }
         }

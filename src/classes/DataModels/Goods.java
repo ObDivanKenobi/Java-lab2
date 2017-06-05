@@ -5,11 +5,27 @@ package classes.DataModels;
  */
 public abstract class Goods {
     static Object[] GoodsFields = new Object[] {"ID", "Название", "Цена", "Тип"};
+    static int maxID = 0;
 
     private int ID;
     private String name;
     private int price;
     private GoodsTypes type;
+
+    public static int getMaxID() {
+        return maxID;
+    }
+
+    public static int getMaxIdAndInc() {
+        return ++maxID;
+    }
+
+    public static void setMaxID(int id) throws IllegalArgumentException{
+        if (maxID <= id)
+            maxID = id;
+        else
+            throw new IllegalArgumentException();
+    }
 
     public int getID() { return ID; }
 
