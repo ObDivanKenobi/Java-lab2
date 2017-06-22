@@ -3,6 +3,7 @@ package gui;
 import classes.DataModels.Goods;
 import classes.DataModels.GoodsTypes;
 import classes.GoodsList;
+import com.sun.javaws.Main;
 import com.sun.javaws.exceptions.InvalidArgumentException;
 
 import javax.swing.table.DefaultTableModel;
@@ -30,6 +31,12 @@ public class MainTableModel extends DefaultTableModel {
         }
 
         setDataVector(data, columns);
+    }
+
+    public MainTableModel() {
+        super();
+        goods = new GoodsList();
+        shownGoods = new GoodsList();
     }
 
     public MainTableModel(GoodsList goods) {
@@ -110,7 +117,10 @@ public class MainTableModel extends DefaultTableModel {
     }
 
     public void clear() {
-        dataVector.clear();
+        goods = new GoodsList();
+        shownGoods = new GoodsList();
+        Goods.resetMaxID();
+        fireTableDataChanged();
     }
 
     public void filterByType(GoodsTypes type) {

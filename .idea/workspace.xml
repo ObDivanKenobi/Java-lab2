@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e76dfa6-320d-4e0b-8528-1e29d984dc3b" name="Default" comment="" />
+    <list default="true" id="8e76dfa6-320d-4e0b-8528-1e29d984dc3b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/lab2/gui/MainForm.class" afterPath="$PROJECT_DIR$/out/production/lab2/gui/MainForm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classes/DataModels/Goods.java" afterPath="$PROJECT_DIR$/src/classes/DataModels/Goods.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/MainForm.java" afterPath="$PROJECT_DIR$/src/gui/MainForm.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/MainTableModel.java" afterPath="$PROJECT_DIR$/src/gui/MainTableModel.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,9 +33,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
               <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -41,26 +45,29 @@
               <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="44" />
               <folding>
                 <element signature="docComment;class#ViewItemForm#0" expanded="false" />
+                <element signature="e#995#996#0" expanded="false" />
+                <element signature="e#1041#1042#0" expanded="false" />
+                <element signature="e#1104#1105#0" expanded="false" />
+                <element signature="e#1135#1136#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainTableModel.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainTableModel.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/gui/MainTableModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+            <state relative-caret-position="379">
+              <caret line="117" column="0" lean-forward="true" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#MainTableModel#0;class#MainTableModel#0" expanded="false" />
                 <element signature="method#MainTableModel#1;class#MainTableModel#0" expanded="false" />
+                <element signature="method#MainTableModel#2;class#MainTableModel#0" expanded="false" />
                 <element signature="method#removeRow#0;class#MainTableModel#0" expanded="false" />
                 <element signature="method#getColumnClass#0;class#MainTableModel#0" expanded="false" />
                 <element signature="method#getColumnName#0;class#MainTableModel#0" expanded="false" />
                 <element signature="method#getRowCount#0;class#MainTableModel#0" expanded="false" />
-                <element signature="method#getValueAt#0;class#MainTableModel#0" expanded="false" />
-                <element signature="method#addItem#0;class#MainTableModel#0" expanded="false" />
                 <element signature="method#filterByType#0;class#MainTableModel#0" expanded="false" />
                 <element signature="method#unfilter#0;class#MainTableModel#0" expanded="false" />
                 <element signature="method#sort#0;class#MainTableModel#0" expanded="false" />
@@ -72,24 +79,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainForm.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Goods.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classes/DataModels/Goods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+              <folding>
+                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#714#715#0" expanded="true" />
+                <element signature="e#739#740#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainForm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/gui/MainForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state relative-caret-position="-432">
+              <caret line="59" column="35" lean-forward="true" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="class#2541:2704" expanded="false" />
-                <element signature="class#2752:2917" expanded="false" />
-                <element signature="class#2960:3118" expanded="false" />
-                <element signature="class#3162:3321" expanded="false" />
-                <element signature="class#3367:3528" expanded="false" />
-                <element signature="class#3573:3729" expanded="false" />
-                <element signature="class#3775:3932" expanded="false" />
-                <element signature="class#3984:4147" expanded="false" />
-                <element signature="class#4191:4346" expanded="false" />
-                <element signature="class#4399:4563" expanded="false" />
-                <element signature="class#4613:4774" expanded="false" />
+                <element signature="class#2572:2735" expanded="false" />
+                <element signature="class#2783:2948" expanded="false" />
+                <element signature="class#2991:3149" expanded="false" />
+                <element signature="e#3087#3088#0" expanded="true" />
+                <element signature="e#3138#3139#0" expanded="true" />
+                <element signature="class#3193:3352" expanded="false" />
+                <element signature="class#3398:3559" expanded="false" />
+                <element signature="class#3604:3760" expanded="false" />
+                <element signature="class#3806:3963" expanded="false" />
+                <element signature="class#4015:4178" expanded="false" />
+                <element signature="class#4222:4377" expanded="false" />
+                <element signature="class#4430:4594" expanded="false" />
+                <element signature="class#4644:4805" expanded="false" />
                 <element signature="method#btnShowOrEditItem_Click#0;class#MainForm#0" expanded="false" />
                 <element signature="method#btnLoadFromFile_Click#0;class#MainForm#0" expanded="false" />
                 <element signature="method#btnRemoveItem_Click#0;class#MainForm#0" expanded="false" />
@@ -105,14 +131,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="MainForm.form" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gui/MainForm.form">
+          <provider selected="true" editor-type-id="ui-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="FileHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classes/FileHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="108" column="37" lean-forward="false" selection-start-line="108" selection-start-column="37" selection-end-line="108" selection-end-column="37" />
               <folding>
                 <element signature="method#ReadData#0;class#FileHandler#0" expanded="false" />
-                <element signature="method#WriteData#0;class#FileHandler#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -176,7 +208,6 @@
         <option value="$PROJECT_DIR$/src/gui/ViewItemForm.java" />
         <option value="$PROJECT_DIR$/src/gui/AddItemDialog.form" />
         <option value="$PROJECT_DIR$/src/gui/AddSwordDialog.form" />
-        <option value="$PROJECT_DIR$/src/classes/DataModels/Goods.java" />
         <option value="$PROJECT_DIR$/src/gui/AddShieldDialog.form" />
         <option value="$PROJECT_DIR$/src/gui/AddShieldForm.java" />
         <option value="$PROJECT_DIR$/src/gui/AddShieldForm.form" />
@@ -186,11 +217,12 @@
         <option value="$PROJECT_DIR$/src/gui/AddSwordDialog.java" />
         <option value="$PROJECT_DIR$/src/gui/AddArmorDialog.java" />
         <option value="$PROJECT_DIR$/src/gui/MainForm.form" />
-        <option value="$PROJECT_DIR$/src/classes/FileHandler.java" />
         <option value="$PROJECT_DIR$/src/gui/SaveToFileOptionsDialog.form" />
-        <option value="$PROJECT_DIR$/src/gui/MainTableModel.java" />
         <option value="$PROJECT_DIR$/src/classes/GoodsList.java" />
+        <option value="$PROJECT_DIR$/src/classes/FileHandler.java" />
         <option value="$PROJECT_DIR$/src/gui/MainForm.java" />
+        <option value="$PROJECT_DIR$/src/gui/MainTableModel.java" />
+        <option value="$PROJECT_DIR$/src/classes/DataModels/Goods.java" />
       </list>
     </option>
   </component>
@@ -227,8 +259,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -279,17 +309,81 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MainForm" />
+              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataModels" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propGUI" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -786,6 +880,7 @@
       <workItem from="1496423944612" duration="25136000" />
       <workItem from="1496515070292" duration="38274000" />
       <workItem from="1497887454758" duration="640000" />
+      <workItem from="1498163990279" duration="4702000" />
     </task>
     <task id="LOCAL-00001" summary="Чтение из файла, отображение в форму, форма с подробностями.">
       <created>1496517150871</created>
@@ -812,7 +907,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90735000" />
+    <option name="totallyTimeSpent" value="95437000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -825,22 +920,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25893825" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32870865" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17009751" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30769232" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30769232" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17324094" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1748401" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -852,7 +949,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32870865" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -882,7 +978,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17009751" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30769232" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13019694" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1748401" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
@@ -928,7 +1024,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="74" />
+      <option name="time" value="83" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -944,13 +1040,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/classes/DataModels/Shield.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/DataModels/Sword.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -993,17 +1082,19 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="class#2541:2704" expanded="false" />
-            <element signature="class#2752:2917" expanded="false" />
-            <element signature="class#2960:3118" expanded="false" />
-            <element signature="class#3162:3321" expanded="false" />
-            <element signature="class#3367:3528" expanded="false" />
-            <element signature="class#3573:3729" expanded="false" />
-            <element signature="class#3775:3932" expanded="false" />
-            <element signature="class#3984:4147" expanded="false" />
-            <element signature="class#4191:4346" expanded="false" />
-            <element signature="class#4399:4563" expanded="false" />
-            <element signature="class#4613:4774" expanded="false" />
+            <element signature="class#2572:2735" expanded="false" />
+            <element signature="class#2783:2948" expanded="false" />
+            <element signature="class#2991:3149" expanded="false" />
+            <element signature="e#3087#3088#0" expanded="true" />
+            <element signature="e#3138#3139#0" expanded="true" />
+            <element signature="class#3193:3352" expanded="false" />
+            <element signature="class#3398:3559" expanded="false" />
+            <element signature="class#3604:3760" expanded="false" />
+            <element signature="class#3806:3963" expanded="false" />
+            <element signature="class#4015:4178" expanded="false" />
+            <element signature="class#4222:4377" expanded="false" />
+            <element signature="class#4430:4594" expanded="false" />
+            <element signature="class#4644:4805" expanded="false" />
             <element signature="method#btnShowOrEditItem_Click#0;class#MainForm#0" expanded="false" />
             <element signature="method#btnLoadFromFile_Click#0;class#MainForm#0" expanded="false" />
             <element signature="method#btnRemoveItem_Click#0;class#MainForm#0" expanded="false" />
@@ -1029,6 +1120,10 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="docComment;class#ViewItemForm#0" expanded="false" />
+            <element signature="e#995#996#0" expanded="false" />
+            <element signature="e#1041#1042#0" expanded="false" />
+            <element signature="e#1104#1105#0" expanded="false" />
+            <element signature="e#1135#1136#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1044,7 +1139,6 @@
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="method#ReadData#0;class#FileHandler#0" expanded="false" />
-            <element signature="method#WriteData#0;class#FileHandler#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1077,17 +1171,19 @@
           <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="class#2541:2704" expanded="false" />
-            <element signature="class#2752:2917" expanded="false" />
-            <element signature="class#2960:3118" expanded="false" />
-            <element signature="class#3162:3321" expanded="false" />
-            <element signature="class#3367:3528" expanded="false" />
-            <element signature="class#3573:3729" expanded="false" />
-            <element signature="class#3775:3932" expanded="false" />
-            <element signature="class#3984:4147" expanded="false" />
-            <element signature="class#4191:4346" expanded="false" />
-            <element signature="class#4399:4563" expanded="false" />
-            <element signature="class#4613:4774" expanded="false" />
+            <element signature="class#2572:2735" expanded="false" />
+            <element signature="class#2783:2948" expanded="false" />
+            <element signature="class#2991:3149" expanded="false" />
+            <element signature="e#3087#3088#0" expanded="true" />
+            <element signature="e#3138#3139#0" expanded="true" />
+            <element signature="class#3193:3352" expanded="false" />
+            <element signature="class#3398:3559" expanded="false" />
+            <element signature="class#3604:3760" expanded="false" />
+            <element signature="class#3806:3963" expanded="false" />
+            <element signature="class#4015:4178" expanded="false" />
+            <element signature="class#4222:4377" expanded="false" />
+            <element signature="class#4430:4594" expanded="false" />
+            <element signature="class#4644:4805" expanded="false" />
             <element signature="method#btnShowOrEditItem_Click#0;class#MainForm#0" expanded="false" />
             <element signature="method#btnLoadFromFile_Click#0;class#MainForm#0" expanded="false" />
             <element signature="method#btnRemoveItem_Click#0;class#MainForm#0" expanded="false" />
@@ -1161,9 +1257,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1233,9 +1326,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1250,13 +1341,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="118" column="29" lean-forward="true" selection-start-line="118" selection-start-column="29" selection-end-line="118" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/DataModels/Goods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -1275,43 +1359,18 @@
           <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="44" />
           <folding>
             <element signature="docComment;class#ViewItemForm#0" expanded="false" />
+            <element signature="e#995#996#0" expanded="false" />
+            <element signature="e#1041#1042#0" expanded="false" />
+            <element signature="e#1104#1105#0" expanded="false" />
+            <element signature="e#1135#1136#0" expanded="false" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/MainForm.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/AddShieldDialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-233">
           <caret line="31" column="69" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="31" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/MainTableModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#MainTableModel#0;class#MainTableModel#0" expanded="false" />
-            <element signature="method#MainTableModel#1;class#MainTableModel#0" expanded="false" />
-            <element signature="method#removeRow#0;class#MainTableModel#0" expanded="false" />
-            <element signature="method#getColumnClass#0;class#MainTableModel#0" expanded="false" />
-            <element signature="method#getColumnName#0;class#MainTableModel#0" expanded="false" />
-            <element signature="method#getRowCount#0;class#MainTableModel#0" expanded="false" />
-            <element signature="method#getValueAt#0;class#MainTableModel#0" expanded="false" />
-            <element signature="method#addItem#0;class#MainTableModel#0" expanded="false" />
-            <element signature="method#filterByType#0;class#MainTableModel#0" expanded="false" />
-            <element signature="method#unfilter#0;class#MainTableModel#0" expanded="false" />
-            <element signature="method#sort#0;class#MainTableModel#0" expanded="false" />
-            <element signature="method#unsort#0;class#MainTableModel#0" expanded="false" />
-            <element signature="method#getAssignedValue#0;class#MainTableModel#0" expanded="false" />
-            <element signature="method#updateData#0;class#MainTableModel#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1330,34 +1389,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/MainForm.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/FileHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="108" column="37" lean-forward="false" selection-start-line="108" selection-start-column="37" selection-end-line="108" selection-end-column="37" />
           <folding>
             <element signature="method#ReadData#0;class#FileHandler#0" expanded="false" />
-            <element signature="method#WriteData#0;class#FileHandler#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/swing/JTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="2661" column="0" lean-forward="false" selection-start-line="2661" selection-start-column="0" selection-end-line="2661" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/MainForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        <state relative-caret-position="-432">
+          <caret line="59" column="35" lean-forward="true" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="class#2541:2704" expanded="false" />
-            <element signature="class#2752:2917" expanded="false" />
-            <element signature="class#2960:3118" expanded="false" />
-            <element signature="class#3162:3321" expanded="false" />
-            <element signature="class#3367:3528" expanded="false" />
-            <element signature="class#3573:3729" expanded="false" />
-            <element signature="class#3775:3932" expanded="false" />
-            <element signature="class#3984:4147" expanded="false" />
-            <element signature="class#4191:4346" expanded="false" />
-            <element signature="class#4399:4563" expanded="false" />
-            <element signature="class#4613:4774" expanded="false" />
+            <element signature="class#2572:2735" expanded="false" />
+            <element signature="class#2783:2948" expanded="false" />
+            <element signature="class#2991:3149" expanded="false" />
+            <element signature="e#3087#3088#0" expanded="true" />
+            <element signature="e#3138#3139#0" expanded="true" />
+            <element signature="class#3193:3352" expanded="false" />
+            <element signature="class#3398:3559" expanded="false" />
+            <element signature="class#3604:3760" expanded="false" />
+            <element signature="class#3806:3963" expanded="false" />
+            <element signature="class#4015:4178" expanded="false" />
+            <element signature="class#4222:4377" expanded="false" />
+            <element signature="class#4430:4594" expanded="false" />
+            <element signature="class#4644:4805" expanded="false" />
             <element signature="method#btnShowOrEditItem_Click#0;class#MainForm#0" expanded="false" />
             <element signature="method#btnLoadFromFile_Click#0;class#MainForm#0" expanded="false" />
             <element signature="method#btnRemoveItem_Click#0;class#MainForm#0" expanded="false" />
@@ -1368,6 +1441,44 @@
             <element signature="method#btnEditItem_Click#0;class#MainForm#0" expanded="false" />
             <element signature="method#btnSaveToFile_Click#0;class#MainForm#0" expanded="false" />
             <element signature="method#show#0;class#MainForm#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/DataModels/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="30" column="18" lean-forward="false" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+          <folding>
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/gui/MainTableModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="117" column="0" lean-forward="true" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#MainTableModel#0;class#MainTableModel#0" expanded="false" />
+            <element signature="method#MainTableModel#1;class#MainTableModel#0" expanded="false" />
+            <element signature="method#MainTableModel#2;class#MainTableModel#0" expanded="false" />
+            <element signature="method#removeRow#0;class#MainTableModel#0" expanded="false" />
+            <element signature="method#getColumnClass#0;class#MainTableModel#0" expanded="false" />
+            <element signature="method#getColumnName#0;class#MainTableModel#0" expanded="false" />
+            <element signature="method#getRowCount#0;class#MainTableModel#0" expanded="false" />
+            <element signature="method#filterByType#0;class#MainTableModel#0" expanded="false" />
+            <element signature="method#unfilter#0;class#MainTableModel#0" expanded="false" />
+            <element signature="method#sort#0;class#MainTableModel#0" expanded="false" />
+            <element signature="method#unsort#0;class#MainTableModel#0" expanded="false" />
+            <element signature="method#getAssignedValue#0;class#MainTableModel#0" expanded="false" />
+            <element signature="method#updateData#0;class#MainTableModel#0" expanded="false" />
           </folding>
         </state>
       </provider>

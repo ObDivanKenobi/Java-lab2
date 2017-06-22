@@ -40,7 +40,7 @@ public class MainForm {
     private JFrame frame;
 
     private GoodsList goods = new GoodsList();
-    private MainTableModel model = new MainTableModel(goods);//, columnNames);
+    private MainTableModel model = new MainTableModel();//, columnNames);
 
     public MainForm() {
         try {
@@ -57,6 +57,7 @@ public class MainForm {
             e.printStackTrace();
         }*/
 
+        tableGoods.setModel(model);
         tableGoods.setFillsViewportHeight(true);
 
         for (GoodsTypes type: GoodsTypes.values())

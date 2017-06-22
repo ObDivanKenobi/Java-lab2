@@ -24,7 +24,11 @@ public abstract class Goods {
         if (maxID <= id)
             maxID = id;
         else
-            throw new IllegalArgumentException();
+            throw new IllegalArgumentException("Нельзя установить maxID меньше текущего!");
+    }
+
+    public static void resetMaxID() {
+        maxID = 0;
     }
 
     public int getID() { return ID; }
